@@ -1,0 +1,33 @@
+﻿.quancoro {
+  border: 14px ridge fuchsia;
+  width: 50%;
+  height: 616px;
+  /*
+  background-image: url("images/doremon.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #E3E8EC;
+  */
+  background: url("images/doremon.jpg") no-repeat center center #E3E8EC; 
+  background-size: 300px;
+}
+.chuonbich{
+	border: 13px solid red;	
+}
+h1{
+	color:red;
+	text-align:center;	
+	font-size:25px;
+	font-weight:bold;
+	font-style: italic;
+	font-family: Tahoma;
+}
+.thea{
+	text-decoration:none;
+	color:green;
+}
+.nhunglabai {
+  color: #ec9e60;
+  line-height: 45px;
+  font-style:italic;
+}

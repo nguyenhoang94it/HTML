@@ -1,0 +1,72 @@
+﻿<html>
+	<head>
+	<title> Bài 3 Form</title>	
+	<meta charset=""utf_8"/>
+	</head>
+	
+	<body>
+		<div>
+			<h1>Thêm hoa mới</h1>
+			<form>
+				<div>
+					<label>Tên(bắt buộc nhập)</label>
+					<br/>
+					<input type="text" value="" name="ten" />
+				</div>
+				<br/>
+				<div>
+					<label>Loại hoa</label>
+					<br/>
+					<select name="loaihoa">
+						<option value="chon">--Chọn loại hoa--<option>
+						<option value="hoalan">Hoa lan<option>
+						<option value="hoahong">Hoa hồng<option>
+					</select>
+				</div>
+				<br/>
+				<div>
+					<label>Giá VNĐ(bắt buộc nhập)</label>
+					<br/>
+					<input type="text" value="" name="gia" />
+				</div>
+				<br/>
+				<div>
+					<label>Tóm tắt</label>
+					<br/>
+					<textarea name="tom tat" cols=""30 rows="5"></textarea>
+				</div>
+				<br/>
+				<div>
+					<label>Là sản phẩm nổi bật</label>
+					<br/>
+					<select name="dungsai">
+						<option value="chon">sai<option>
+						<option value="dung">đúng<option>
+						<option value="khac">khác<option>
+					</select>
+				</div>
+				<br/>
+				<div>
+					<label>Là sản phẩm khuyến mãi</label>
+					<br/>
+					<select name="dungsai">
+						<option value="sai">sai<option>
+						<option value="dung">đúng<option>
+						<option value="khac">Khác<option>
+					</select>
+				</div>
+				<br/>
+				<div>
+					<label>Hình Ảnh</label>
+					<br/>
+					<input type="file" value="hinh anh" name="anh" />
+				</div>
+				<br/>
+				<div>
+					<input type="submit" value="Lưu" name="luu" />
+					<input type="reset" value="Nhập Lại" name="nhaplai" />
+				</div>
+			</form>
+		</div>
+	</body>
+</html>	

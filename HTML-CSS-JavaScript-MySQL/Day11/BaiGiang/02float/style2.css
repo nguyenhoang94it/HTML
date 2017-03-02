@@ -1,0 +1,32 @@
+.wrapper {
+    border: 1px solid #000;
+    height: 300px;
+    margin: 20px auto;
+    width: 600px;
+}
+.wrapper .block-left {
+  background: #bbb none repeat scroll 0 0;
+  height: 120px;
+  width: 100px;
+  border: 2px solid red;
+  float:left;
+}
+.wrapper .block-right {
+    background: none repeat scroll 0 0 pink;
+    height: 120px;
+    width: 200px;
+	border:2px solid green;
+	float:right;
+}
+.wrapper .block-center {
+    background: none repeat scroll 0 0 blue;
+    height: 120px;
+    width: 288px;
+	border:2px solid green;
+	float:left;
+}
+.clear:{
+	clear:both;
+}
+
+

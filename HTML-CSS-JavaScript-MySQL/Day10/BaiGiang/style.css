@@ -1,0 +1,10 @@
+.anhyeuem span{
+	color:pink;	
+}
+.baihoc ul{
+	list-style: none;
+}
+.baihoc ul li{
+	background:url("hoathi.png") no-repeat left center;
+	padding-left: 20px;
+}

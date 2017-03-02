@@ -1,0 +1,59 @@
+.tintuc{
+                margin-top: 40px;
+                width: 680px;
+            }
+            .tin12{
+                margin-right: 20px;
+                float: left;
+                width: 450px;
+            }
+            .tin1{
+                margin-right: 20px;
+                float: left;
+                width: 210px;
+            }
+            .tin1 img{
+                border: 2px solid #F8F1F7; 
+                padding: 3px;
+            }
+            .tin1 a{
+                color: black;
+                font-family: tahoma;
+                font-size: 15;
+                text-decoration: none;
+                font-weight: bold;
+            }
+            .tin1 p{
+                font-family: tahoma;
+                font-size: 13;
+            }
+            .tin2{
+                float: right;
+                width: 210px;
+            }
+            .tin2 img{
+                border: 2px solid #F8F1F7; 
+                padding: 3px;
+            }
+            .tin2 a{
+                color: black;
+                font-family: tahoma;
+                font-size: 15;
+                text-decoration: none;
+                font-weight: bold;
+            }
+            .tin3{
+                float: right;
+                width: 210px;
+            }
+            .tin3 img{
+                border: 2px solid #F8F1F7; 
+                padding: 3px;
+            }
+            .tin3 a{
+                color: black;
+                font-family: tahoma;
+                font-size: 15;
+                text-decoration: none;
+                font-weight: bold;
+            }

@@ -1,0 +1,73 @@
+Hiển thị TenGiangVien, ID_Lop TenLop của các dòng có ID_Lop>=2, Sắp xếp ID_Lop theo thứ tự tăng dần
+
+SELECT gv.TenGiangVien, l.ID_Lop, l.TenLop
+FROM giangvien AS gv
+INNER JOIN lop AS l
+WHERE l.ID_Lop>=2 && gv.ID_Lop= l.ID_Lop
+ORDER BY ID_Lop ASC
+
+Bắt đầu từ dòng số 1, lấy 2 dòng
+
+SELECT gv.TenGiangVien, l.ID_Lop, l.TenLop
+FROM giangvien AS gv
+INNER JOIN lop AS l
+WHERE l.ID_Lop>=2 && gv.ID_Lop= l.ID_Lop
+ORDER BY ID_Lop ASC
+LIMIT 0,2
+
+1. in thông tin 
+
+SELECT gv.ID_GiangVien, gv.TenGiangVien, l.ID_Lop, l.TenLop, l.KyHieu
+FROM giangvien AS gv
+INNER JOIN lop AS l
+On gv.ID_Lop=l.ID_Lop
+
+2. 
+SELECT gv.ID_GiangVien, gv.TenGiangVien, l.ID_Lop, l.TenLop, l.KyHieu
+FROM giangvien AS gv
+INNER JOIN lop AS l
+On gv.ID_Lop=l.ID_Lop
+WHERE gv.ID_GiangVien =2
+ 
+3.
+
+SELECT  gv.TenGiangVien, l.KyHieu, l.TenLop, l.KyHieu
+FROM giangvien AS gv
+INNER JOIN lop AS l
+On gv.ID_Lop=l.ID_Lop
+WHERE gv.TenGiangVien LIKE 'Phan Hồng Hậu'
+
+4.
+
+SELECT COUNT(*) FROM giangvien WHERE ID_GiangVien>3
+
+5.
+
+SELECT gv.TenGiangVien, l.TenLop
+FROM giangvien AS gv
+INNER JOIN lop AS l
+ON gv.ID_Lop = l.ID_Lop
+WHERE gv.ID_GiangVien =4
+
+6.
+
+SELECT gv.ID_GiangVien, gv.TenGiangVien, l.ID_Lop, l.TenLop
+FROM giangvien AS gv
+INNER JOIN lop AS l
+On gv.ID_Lop=l.ID_Lop
+WHERE l.ID_Lop>1
+
+7.
+SELECT ID_GiangVien, TenGiangVien FROM giangvien 
+WHERE ID_GiangVien>2
+LIMIT 2
+
+8.
+SELECT gv.ID_GiangVien, gv.TenGiangVien, l.TenLop 
+FROM giangvien AS gv
+INNER JOIN lop AS l
+WHERE gv.ID_GiangVien>2
+LIMIT 2
+
+
+ 

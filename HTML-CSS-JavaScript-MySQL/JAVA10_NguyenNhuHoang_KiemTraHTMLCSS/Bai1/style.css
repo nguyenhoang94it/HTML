@@ -1,0 +1,64 @@
+.trangweb{
+    width:777px;
+    margin: 30px auto;
+}
+.noidung{
+
+}
+.tieude{
+    margin-bottom: 25;
+}
+.tieude a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #FD0402;
+}
+.noidung-giua{
+    margin-bottom: 40px;
+}
+.noidung-giua-hinhanh{
+
+}
+.hinhanh{
+    float: left;
+    width: 200;
+    height: 120;
+    border: 1px solid #BBB;
+    padding: 2px;
+}
+.hinhanh a{
+
+}
+.hinhanh a img {
+    width: 200;
+    height: 120;
+}
+.vanban{
+    float: right;
+    width: 555px;
+    line-height: 20px;
+}
+.clr{
+    clear:both;
+}
+.cacmuc {
+  list-style: inside none disc;
+  margin-top: 10px;
+}
+.h3{
+    margin-bottom: 10px;
+}
+.h3 a{
+    text-decoration: none;
+    background: url("images/link.png") no-repeat left center;
+    padding-left: 25px;
+    color: #0200F7;
+    font-size: 18px;
+    padding-bottom: 4px;
+}
+.trang{
+
+}
+.trang li a{
+
+}

@@ -1,0 +1,71 @@
+<html>
+	<head>
+		<title>Lấy giá trị từ thẻ form</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="keywords" content="học php" />
+		<meta name="description" content="học php" />	
+		<script type="text/javascript" src="jquery-1.12.3.min.js"></script>	
+		
+	</head>
+	<body>
+		<form action="javascript:void(0)"  id="frmLogin">
+			<table width="840px" border="1" cellpadding="10" cellspacing="0">
+				<tr><td colspan="2" bgcolor="#F0F0F0"><b>Form mua hoa</b></td></tr>
+				<tr>
+					<td width="226px" valign="top">Tên hoa(*)</td>
+					<td valign="top">
+						<input type="text" value="" name="tenhoa" id="tenhoa" size="34" />
+						<label class="username"></label>
+					</td>
+				</tr>
+				<tr>
+					<td width="226px" valign="top">Số lượng(*)</td>
+					<td valign="top">
+						<input type="text" value="" name="soluong" id="soluong" size="34" />
+						<label class="username"></label>
+					</td>
+				</tr>
+				<tr>
+					<td width="226px" valign="top">Giá bán(*)</td>
+					<td valign="top">
+						<input type="text" value="" name="submit" id="giaban" size="34" />
+						<label class="username"></label>
+					</td>
+				</tr>
+					<tr>
+					<td width="226px" valign="top">Tổng tiền</td>
+					<td valign="top">
+						<input type="text" value="" name="tongtien" id="tongtien" size="34" />
+						<label class="username"></label>
+					</td>
+				</tr>
+				<tr>
+					<td width="226px" valign="top"></td>
+					<td valign="top">
+						<input type="submit" value="submit" name="giaban" id="submit" />
+						<label class="username"></label>
+					</td>
+				</tr>
+			
+			</table>
+		</form>
+		<script type="text/javascript">
+			var tenhoa = $("#tenhoa").val();
+			var soluong =$("#soluong").val();
+			var giaban =$("#giaban").val();
+			var tongtien= soluong*giaban;
+			$("#tongtien").val(tongtien);
+			$(document).ready(function() {
+				$("#submit").click(function() {
+					var tenhoa = $("#tenhoa").val();
+					var soluong =$("#soluong").val();
+					var giaban =$("#giaban").val();
+					var tongtien= soluong*giaban;
+					$("#tongtien").val(tongtien);
+
+				});
+			});
+		</script>
+
+	</body> 
+</html> 

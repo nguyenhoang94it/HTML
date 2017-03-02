@@ -1,0 +1,77 @@
+<html>
+	<head>
+		<title>Tích hợp CKEditor</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="keywords" content="học php" />
+		<meta name="description" content="học php" />
+		<script type="text/javascript" src="jquery-1.12.3.min.js"></script>
+		<script src="ckeditor/ckeditor.js"type="text/javascript"></script>		
+	</head>
+	<body>
+		<form action="" method="get" name="frmLogin" id="frmLogin">
+			<table width="840px" border="1" cellpadding="10" cellspacing="0">
+				<tr><td colspan="2" bgcolor="#F0F0F0"><b>Đăng ký tài khoản</b></td></tr>
+				<tr>
+					<td width="226px" valign="top">Tên đăng nhập (*)</td>
+					<td valign="top">
+						<input type="text" value="" name="username" id="username" size="34" />
+						<label class="username"></label>
+					</td>
+				</tr>
+				
+				<tr>
+					<td width="226px" valign="top">Mật khẩu (*)</td>
+					<td valign="top">
+						<input type="password" value="" name="password" id="password" size="34" />
+					</td>
+				</tr>
+				
+				<tr>
+					<td valign="top">Bạn ở tỉnh nào</td>
+					<td valign="top">
+						<select name="tinhthanh">
+							<option value="">--Chọn tỉnh thành--</option>
+							<option value="1" selected>Đà Nẵng</option>
+							<option value="2" selected>Hà Nội</option>
+							<option value="3" selected>Hồ Chí Minh</option>
+							<option value="4" selected>Khác</option>
+						</select>
+					</td>
+				</tr>
+				
+				<tr>
+					<td valign="top">Giới tính</td>
+					<td valign="top">
+						<input type="radio" name="gioitinh" value="nam" /> Nam<br />
+						<input type="radio" name="gioitinh" value="nu" /> Nữ<br />
+					</td>
+				</tr>
+				
+				<tr>
+					<td valign="top">Sở thích</td>
+					<td valign="top">
+						<input type="checkbox" name="xemphim" value="" /> Xem phim<br />
+						<input type="checkbox" name="nghenhac" value="" /> Nghe nhạc<br />
+						<input type="checkbox" name="docbao" value="" /> Đọc báo<br />
+					</td>
+				</tr>
+				
+				<tr>
+					<td valign="top">Giới thiệu chi tiết về bạn(*)</td>
+					<td valign="top">
+						<textarea  name="gioithieu" rows="6" cols="80" class="ckeditor"></textarea>
+					</td>
+				</tr>
+				
+				<tr>
+					<td valign="top">&nbsp;</td>
+					<td valign="top">
+						<input type="submit" value="Submit" name="submit" />
+						<input type="reset" value="Reset" name="reset" />
+					</td>
+				</tr>
+				
+			</table>
+		</form>
+	</body> 
+</html> 

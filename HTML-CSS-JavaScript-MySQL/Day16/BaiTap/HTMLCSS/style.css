@@ -1,0 +1,109 @@
+body{
+	background: url("images/bg.jpg") repeat;
+}
+a{
+	text-decoration: none;
+}
+.wrapper{
+	width: 700px;
+	background: white;
+	margin: 30px auto;
+}
+.header {
+
+}
+.anh-top img{
+	width: 700px;
+}
+.modun{
+	  background: url("images/footer.jpg") repeat; 
+	  padding: 20px;
+}
+.modun a{
+  background:url("images/bullet.jpg") no-repeat scroll left center;
+  color: white;
+  font-family: arial;
+  padding: 14px;
+}
+.main{
+
+}
+.left{
+	float: left;
+    width: 190px;
+    height: 140px;
+    background: #EDEDED;
+    padding-left: 20px;
+}
+.clr{
+    clear: both;
+}
+.clr1{
+	   clear: both;
+}
+h2{
+  border-bottom: 1px dashed #ccc;
+  color: black;
+  margin-bottom: 12px;
+  padding-bottom: 2px;
+  padding-top: 20px;
+  font-size: 14px;
+}
+	.left ul li{ 
+	padding-top: 5px;
+    list-style-type: disc;
+    margin-left: 15px;
+}
+.left ul li a{
+
+}
+.right{
+	 float: right;
+    width: 450px;
+    margin-right: 10px;
+}
+.right p{
+	 font-size: 12px;
+    line-height: 18px;
+    text-align: justify;
+    margin-top: 7px;
+}
+.right ul li{
+	border-bottom: 1px dashed #ccc;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.footer{
+	margin-top: 30px;
+    background: url("images/footer.jpg") repeat;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 230px;
+    font-size: 11px;
+    height: 7px;
+}
+.pic{
+	
+  float: left;
+  margin-top: 10px;
+  width: 120px;
+  padding-right: 10px;
+}
+}
+.h2{
+	color: black;
+    font-size: 17px;
+    font-weight: bold;
+}
+.trang{
+	padding-left: 100px;
+}
+.trang a{
+  color: blue;
+  font-family: tahoma;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+}

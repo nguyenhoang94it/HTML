@@ -1,0 +1,39 @@
+
+            .thoitrang{
+                width: 310px;
+                border: 3px solid #F8F1F7;  
+                border-top: 0px solid #F8F1F7;
+                border-bottom-right-radius: 8px;
+            }
+            .ngoctrinh{
+                background: #F8F1F7;
+                padding: 10px;
+            }
+            .damcuoi{
+                background: #F8F1F7;
+                padding: 10px;
+            }
+            .link{
+                padding: 1px;
+            }
+            .hoahau{
+                text-decoration: none;
+                color: black;
+                font-family: tahoma;
+                font-size: 15;
+                font-weight: bold;
+            }
+            .link ul{
+                padding: 10px;
+                
+                font-family: tahoma;
+                font-size: 13;
+            }
+            .link ul li{
+                background:url("images/dot.png") no-repeat left center;
+                list-style: none;
+                padding-left: 10px;
+            }
+            .link ul li a{
+                 text-decoration: none;
+            }

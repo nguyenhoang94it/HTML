@@ -1,0 +1,76 @@
+.trangweb{
+    width:670px;
+    margin: 30px auto;
+}
+a{
+    text-decoration: none;
+}
+.tieude{
+            margin-bottom: 10px;
+    border-bottom: 2px solid #d58b29;
+}
+.tong{
+    margin-top: 10px;
+}
+.tieude a{
+    color: #d58b29;
+    font-size: 18px;
+}
+
+.h3{
+    font-size: 14px;
+    color: #d58b29;
+    font-weight: bold;
+    padding-top: 10px; 
+}
+.h3 a{
+    color: #d58b29;
+}
+.phan1{
+    float: left;
+    width: 380;
+}
+.phan1 img{
+    width: 380px;
+    height: 220px;
+}
+.phan1 p{
+    padding-top: 15px;
+    text-align: justify;
+}
+.phan2{
+    float: right;
+    width: 270px;
+    margin-top: -10px;
+}
+.phan2 li{
+        margin-top: 10px;
+    border-bottom: 1px dotted #BABABA;
+    padding-bottom: 10px;
+}
+.phan2 li img{
+    float: left;
+    width: 80px;
+}
+.phan2 li p{
+    float: right;
+    width: 180px;
+    font-size: 13px;
+    color: #333;
+    font-weight: bold;
+}
+.ranhgioi{
+    margin-bottom: 40px;
+}
+.clr{
+    clear: both;
+}
+
+.table{
+    width: 290px;
+    margin-top: -20px;
+    margin-bottom: 15px;
+}
+.table tr td{
+    padding-top: 10px;
+}

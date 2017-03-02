@@ -1,0 +1,118 @@
+.body{
+    margin: 30px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.phantren ul li{
+    width: 800px;
+    height: 430px;
+}
+.phantren ul li h2{
+    margin-top: 10px;
+}
+.h2{
+    font-size: 14px;
+    font-family: tahoma;
+    font-weight: bold;
+    color: #268A80;
+}
+.phantren ul{
+    font-family: tahoma;
+}
+.phantren ul li img{
+    width: 392px;
+    height: 200px;
+    margin-top: 10px;
+}
+.h3{
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    padding-top: 10px;
+    text-decoration: none;
+    color: black;
+    line-height: 20px; 
+    width: 392px;
+}
+.h4{
+    font-size: 12px;
+    position: relative;
+    top: 10px;
+    line-height: 20px; 
+    width: 392px;
+    text-decoration: none;
+    color: black;
+}
+.clr{
+    border: 2px solid #676767;
+    width: 390px;
+}
+.clr1{
+    border: 1px solid #676767;
+    width: 392px;
+    margin-top: 2px;
+}
+.clr2{
+    border: 1px solid #E0E0E0;
+    width: 392px;
+    margin-top: 10px;
+}
+.clr3{
+    border: 1px solid #E0E0E0;
+    width: 392px;
+    margin-top: 20px;
+}
+.phanduoi ul{
+    font-family: tahoma;
+}
+.phanduoi ul li{
+    width: 800px;
+    height: 430px;
+}
+.phanduoi ul li h2{
+    margin-top: 10px;
+}
+.phan1{
+    float: left;
+    width: 260;
+}
+.phan1 div{
+    width: 260px;
+}
+.pic1{
+    width: 260px;
+    margin-top: 10px;
+}
+.phan1 a{
+    width: 260px;
+}
+.phan2{
+    float: left;
+    width: 260px;
+    margin-left: 10px; 
+}
+.phan2 div{
+    width: 260px;
+}
+.phan2 a{
+    width: 260px;
+}
+.phan3{
+    float: right;
+    width: 260px;
+}
+.phan3 div{
+    width: 260px;
+}
+.phan3 a{
+    width: 260px;
+}
+
+.clr4{
+    border: 2px solid #676767;
+    width: 258px !important;
+}

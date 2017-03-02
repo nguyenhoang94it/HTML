@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title>javascript</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="keywords" content="học php" />
+		<meta name="description" content="học php" />	
+		<script type="text/javascript" src="js/script.js"> </script>		
+	</head>
+	<body>
+		<div>
+			<h1>JAVASCRIPT : Sự kiện</h1>
+			<form onsubmit="alert('Bạn đang nhấn nút submit!!!')">
+				Họ tên : <input type="text" name="hoten" value="" onfocus="myFocus(this)" /> <br /><br />
+				Tuổi : <input type="text" name="tuoi" value="" onchange="alert('Bạn đang thay đổi giá trị')" /> <br /><br />
+				<input type="submit" name="gui" value="Gửi thông tin" />
+			</form>
+		</div>
+		<div>
+			<a href="javascript:void(0)" >Gọi hàm tính diện tích hình tròn</a> <br />
+			<a href="javascript:void(0)" onclick="alert(tinhTong(3,7))" >Gọi hàm tính tổng</a>
+		</div>
+		<script type="text/javascript">
+			function myFocus(x){
+				x.style.background = "pink";
+				x.style.color = "red";
+			}
+		</script>
+	</body> 
+</html> 
